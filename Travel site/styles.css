@@ -1,0 +1,124 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.ebrdgreencities.com/assets/headers/18c3a9e48f/header-zenica-panorama.png");
+    height: 300px;
+    padding: 24px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 11px;
+}
+
+.hero-text h1 {
+    background: #1D3557;
+    font-weight: 700;
+    font-size: 32px;
+    padding:5px 10px;
+    border-radius: 7px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+
+.hero-h2 {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    gap: 10px;
+    width: 412px;
+    height: 52px;
+    background: #457B9D;
+    border-radius: 10px;
+}
+
+.hero-h2 h2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.activities {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px;
+    color: #1D3557;
+    background: #F1FAEE;
+
+}
+.photos {
+    border-radius: 50%;
+    width: 100px;
+    height: 96px;
+}
+.phototitle {
+    color: blue;
+}
+.guide {
+    display: flex;
+    width: 400px;
+    justify-content: center; 
+    align-content: center;
+    margin: 20px auto;
+    background: #A8DADC;
+    padding: 10px 10px 1px 10px;
+    border-radius: 5px;
+    border-bottom: 5px solid #457B9D;
+    
+}
+.mjau {
+    display: flex;
+    flex-direction: column;
+    
+}
+#me {
+    width: 240px;
+    height: 160px
+}
+.photodesc {
+    color:#1D3557;
+}
+#title {
+    color: #1D3557;
+    background: #F1FAEE;
+    padding: 20px 0px;
+    margin: 0px;
+}
+#opis {
+    padding: 0px;
+}
